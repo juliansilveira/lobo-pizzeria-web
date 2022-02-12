@@ -1,56 +1,116 @@
 * {
     margin : 0;
     padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body{
+    background-color: #7E65A8;
 }
 
 /* PARTE SUPERIOR */
-
+.contenedor-total{
+    width: 99%;
+    height: 99%;
+    margin: 0 auto;
+}
 .header {
     display         : flex;
     background-color: red;
     justify-content: space-between;
     align-items: center;
-    height: 95px;
+    height: 95%;
     padding: 20px 0;
+    width: auto;
 }
 
 .logo {
-    font-size: 50px;
+    font-size: 20px;
     margin-left: 25px;
+    width: 25%;
+    box-sizing: border-box;
 }
 
 .titulo {
     font-size: 80px;
     margin-left: 1em;
+    margin-right: 20px;
+    height: auto;
+    width: auto;
+    width: 80%;
+    box-sizing: border-box;
 }
 
-ul{
-    margin: 30px 0 0 5px;
-}
-li {
-    color     : blue;
-    background-color: #ffff;
-    display   : inline-block;
-    font-size : 20px;
-    text-align: center;
-}
-a{
-    text-decoration: none;
-    margin: 0 50px 0 ;
+/* NAV BAR */
+.nav-bar{
+    background-color: #F52911;
+    height: 90%;
+    width: 100%;
+    padding: 25px 0;
+    margin: 1px 0
 }
 
-a:hover{
-    background-color: green;
-    color: aqua;
-}
+
 
 .nav-bar ul{
-    background-color: white;
-    padding-bottom: 20px;
+    display: flex;
+    align-items:center;
 }
+
+.nav-bar ul li{
+    margin: auto;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+
+.nav-bar ul li a:hover{
+    color:black
+}
+
 
 /* CUERPO */
 
+.nosotros-container{
+    margin: 30px 0;
+    width: 70%;
+    margin-left: 22px;
+}
+
+.nosotros-contenido{
+    text-align: left;
+    font-size: 20px;
+}
+
+/*MENU*/
 img {
     width: 80px;
 }
+
+/* FOOTER */
+
+.container-footer{
+    width: 90%;
+    margin: auto;
+    background-color:#E8DDCF;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 50px;
+}
+
+.footer{
+
+}
+
+.logo-footer{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+}
+
